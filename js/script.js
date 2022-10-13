@@ -18,7 +18,6 @@ const initTimer = maxTime => {
         initGame();
     }, 1000);
 }
-
 const initGame = () => {
     initTimer(15);
     let randomObj = words[Math.floor(Math.random() * words.length)];
